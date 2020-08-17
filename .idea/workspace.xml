@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Genetic_Algorithm_Performances" targetName="Genetic_Algorithm_Performances" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8c9102e-f07e-446d-b701-48f6b18dec9b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1g9StUrAm7D9A1sl2ndpLuhQetx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Travelling Salesman" />
+      <recent name="$PROJECT_DIR$/sources" />
+      <recent name="$PROJECT_DIR$/headers" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Genetic_Algorithm_Performances" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Genetic_Algorithm_Performances" TARGET_NAME="Genetic_Algorithm_Performances" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Genetic_Algorithm_Performances" RUN_TARGET_NAME="Genetic_Algorithm_Performances">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8c9102e-f07e-446d-b701-48f6b18dec9b" name="Default Changelist" comment="" />
+      <created>1597525530000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597525530000</updated>
+      <workItem from="1597525531844" duration="4852000" />
+      <workItem from="1597569859663" duration="9551000" />
+      <workItem from="1597588088864" duration="9168000" />
+      <workItem from="1597609592915" duration="6915000" />
+      <workItem from="1597617489687" duration="970000" />
+      <workItem from="1597659654738" duration="7427000" />
+      <workItem from="1597669497034" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="621" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597662057730">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="621" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597662057730" />
+    <state x="711" y="324" width="496" height="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597616007620">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="711" y="324" width="496" height="399" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1597616007620" />
+    <state x="1176" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597585340980">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1176" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597585340980" />
+    <state x="1162" y="278" key="FileChooserDialogImpl" timestamp="1597661882979">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1162" y="278" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1597661882979" />
+    <state width="1874" height="199" key="GridCell.Tab.0.bottom" timestamp="1597669940846">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1597669940846" />
+    <state width="1874" height="199" key="GridCell.Tab.0.center" timestamp="1597669940845">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="199" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1597669940845" />
+    <state width="1874" height="199" key="GridCell.Tab.0.left" timestamp="1597669940845">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="199" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1597669940845" />
+    <state width="1874" height="199" key="GridCell.Tab.0.right" timestamp="1597669940845">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="199" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1597669940845" />
+    <state width="910" height="340" key="GridCell.Tab.1.bottom" timestamp="1597669423668">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="910" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423668" />
+    <state width="910" height="340" key="GridCell.Tab.1.center" timestamp="1597669423667">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="910" height="340" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423667" />
+    <state width="910" height="340" key="GridCell.Tab.1.left" timestamp="1597669423667">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="910" height="340" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423667" />
+    <state width="910" height="340" key="GridCell.Tab.1.right" timestamp="1597669423668">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="910" height="340" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423668" />
+    <state x="680" y="178" width="1007" height="733" key="SettingsEditor" timestamp="1597669791985">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="680" y="178" width="1007" height="733" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1597669791985" />
+  </component>
+</project>
