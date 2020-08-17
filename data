@@ -1,0 +1,125 @@
+directed
+false
+cities
+Vluudence
+Ajisey
+Driphia
+Fropdence
+Blieville
+Vrando
+Gralo
+Klago
+Okhull
+Ertongate
+Pleerith
+Meedton
+Vloylas
+Simouth
+Klomond
+Mens
+Vlesa
+Vrarc
+Asoland
+Ovision
+Beah
+Teledo
+Sheburg
+Procester
+Arkmore
+Khusa
+Areigh
+Lille
+Sork
+Gloria
+edges
+Vluudence Driphia 6
+Vluudence Simouth 8
+Vluudence Vrarc 14
+Vluudence Beah 15
+Vluudence Procester 0
+Vluudence Arkmore 12
+Vluudence Areigh 20
+Vluudence Gloria 11
+Ajisey Fropdence 13
+Ajisey Khusa 9
+Driphia Klago 16
+Driphia Vlesa 14
+Driphia Vrarc 2
+Fropdence Gralo 16
+Fropdence Lille 16
+Fropdence Sork 14
+Blieville Klago 19
+Blieville Sheburg 12
+Blieville Arkmore 10
+Vrando Okhull 16
+Vrando Meedton 2
+Vrando Vlesa 9
+Vrando Beah 15
+Vrando Sork 4
+Vrando Gloria 3
+Gralo Ertongate 12
+Gralo Pleerith 10
+Gralo Vloylas 18
+Gralo Mens 1
+Gralo Lille 9
+Gralo Gloria 10
+Klago Pleerith 19
+Klago Meedton 3
+Klago Simouth 12
+Klago Beah 15
+Klago Arkmore 17
+Klago Lille 13
+Okhull Meedton 3
+Okhull Beah 15
+Okhull Khusa 18
+Okhull Areigh 20
+Okhull Lille 9
+Okhull Sork 13
+Ertongate Vloylas 16
+Pleerith Vlesa 19
+Pleerith Ovision 5
+Pleerith Beah 9
+Pleerith Khusa 8
+Pleerith Gloria 4
+Meedton Klomond 11
+Meedton Khusa 11
+Meedton Areigh 11
+Meedton Lille 6
+Meedton Gloria 10
+Vloylas Teledo 2
+Vloylas Sheburg 16
+Vloylas Procester 10
+Simouth Procester 15
+Klomond Vlesa 18
+Klomond Vrarc 2
+Klomond Teledo 2
+Klomond Sork 14
+Mens Sheburg 10
+Mens Procester 17
+Mens Arkmore 11
+Mens Lille 2
+Vlesa Asoland 15
+Vlesa Khusa 18
+Vlesa Sork 9
+Vlesa Gloria 15
+Vrarc Asoland 0
+Vrarc Ovision 1
+Vrarc Teledo 20
+Vrarc Sheburg 9
+Vrarc Procester 6
+Vrarc Lille 15
+Vrarc Sork 2
+Ovision Beah 0
+Ovision Gloria 13
+Beah Teledo 20
+Beah Procester 8
+Beah Gloria 10
+Teledo Khusa 9
+Teledo Lille 5
+Teledo Sork 13
+Teledo Gloria 5
+Sheburg Procester 6
+Procester Lille 17
+Procester Gloria 7
+Khusa Lille 6
+Areigh Lille 7

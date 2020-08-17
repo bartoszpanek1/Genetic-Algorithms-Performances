@@ -1,0 +1,3 @@
+/home/bartosz/CLionProjects/Genetic_Algorithm_Performances/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bartosz/CLionProjects/Genetic_Algorithm_Performances/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bartosz/CLionProjects/Genetic_Algorithm_Performances/cmake-build-debug/CMakeFiles/Genetic_Algorithm_Performances.dir
