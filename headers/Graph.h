@@ -7,7 +7,9 @@
 
 
 
+#include <unordered_set>
 #include <unordered_map>
+#include <map>
 #include "Node.h"
 template<typename T>
 class Graph {
@@ -26,6 +28,8 @@ public:
     //methods
     void addNode(const T&);
     void addEdge(const T& from, const T& to, int cost);
+    int getDistance(T from, T to);
+    bool isConnected();
     int size();
     template<typename S>
     friend std::ostream &operator<<(std::ostream& out, const Graph<S>& g);
