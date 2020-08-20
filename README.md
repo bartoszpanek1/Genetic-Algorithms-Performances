@@ -1,4 +1,2 @@
-# Genetic-Graph-Algorithms
-Implementations of genetic graph algorithms and comparisons with classical graph algorithms.
-# Genetic-Graph-Algorithms
-# Genetic-Algorithms-Performances
+# Genetic Algorithms - Performances
+Implementations of genetic algorithms and comparisons with classical ones.
