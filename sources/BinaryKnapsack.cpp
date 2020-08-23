@@ -91,13 +91,6 @@ int BinaryKnapsack::solveGenetic(int sizeOfPop, int numOfGenerations, double cro
     int numOfParents = sizeOfPop / 2;
     int numOfChildren = sizeOfPop - numOfParents;
     for (int i = 0; i < numOfGenerations; i++) {
-        std::cout<<"POPULATION "<<i<<std::endl;
-        for(int k=0;k<sizeOfPop;k++){
-            for(int s=0;s<size;s++){
-                std::cout<<population[k][s]<<" ";
-            }
-            std::cout<<std::endl;
-        }
         int *fitness = this->fitness(population, sizeOfPop);
         int max = 0;
         for (int j = 0; j < sizeOfPop; j++) {
