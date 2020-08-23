@@ -1,5 +1,5 @@
 //
-// Created by bartosz on 16.08.2020.
+// This file contains code of all graph methods
 //
 #include <vector>
 #include <ostream>
@@ -8,6 +8,7 @@
 #include "unordered_set"
 #include "../headers/Graph.h"
 #include <bits/stdc++.h>
+
 template<typename T>
 void Graph<T>::addNode(const T &val) {
     auto itr = nodes.find(val);
@@ -78,32 +79,32 @@ int Graph<T>::size() {
 
 template<typename T>
 bool Graph<T>::isConnected() { //using BFS to check if graph is connected
-    if(nodes.empty()){
+    if (nodes.empty()) {
         return false;
     }
-    Node<T>* n = nodes.begin()->second;
-    std::queue<Node<T>*> queue;
+    Node<T> *n = nodes.begin()->second;
+    std::queue<Node<T> *> queue;
     std::unordered_map<T, bool> visited;
     queue.push(n);;
-    while(!queue.empty()){
-        Node<T>* n = queue.front();
-        visited[n->getVal()]=true;
+    while (!queue.empty()) {
+        Node<T> *n = queue.front();
+        visited[n->getVal()] = true;
         queue.pop();
-        for(auto pair : n->adj){
-            if(!visited[pair.first->getVal()]){
+        for (auto pair : n->adj) {
+            if (!visited[pair.first->getVal()]) {
                 queue.push(pair.first);
             }
         }
     }
-    return visited.size()==nodes.size();
+    return visited.size() == nodes.size();
 }
 
 template<typename T>
 int Graph<T>::getDistance(T from, T to) {
     int dist = INT_MAX;
-    if(nodes.contains(from)&&nodes.contains(to)){
-        for(const auto& node:nodes[from]->adj){
-            if(node.first->getVal()==to){
+    if (nodes.contains(from) && nodes.contains(to)) {
+        for (const auto &node:nodes[from]->adj) {
+            if (node.first->getVal() == to) {
                 return node.second;
             }
         }
@@ -112,5 +113,7 @@ int Graph<T>::getDistance(T from, T to) {
 }
 
 
-template class Graph<std::string>;
+template
+class Graph<std::string>;
+
 template std::ostream &operator<<(std::ostream &out, const Graph<std::string> &g);

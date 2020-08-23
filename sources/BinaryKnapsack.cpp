@@ -1,5 +1,5 @@
 //
-// Created by bartosz on 19.08.2020.
+// This file contains code of all methods needed for solving a binary knapsack problem
 //
 
 #include <algorithm>
@@ -97,19 +97,19 @@ int BinaryKnapsack::solveGenetic(int sizeOfPop, int numOfGenerations, double cro
             max = fitness[j] > max ? fitness[j] : max;
         }
         fitnessHistory.push_back(max);
-        int **parents = selection(fitness, population, numOfParents,sizeOfPop);
-        int **children = crossover(parents, numOfChildren, crossoverRate,numOfParents);
-        mutation(children,numOfChildren,mutationRate);
+        int **parents = selection(fitness, population, numOfParents, sizeOfPop);
+        int **children = crossover(parents, numOfChildren, crossoverRate, numOfParents);
+        mutation(children, numOfChildren, mutationRate);
 
-        int idx=0;
-        for(int j=0;j<numOfParents;j++,idx++){
-            for(int k=0;k<size;k++){
-                population[idx][k]=parents[j][k];
+        int idx = 0;
+        for (int j = 0; j < numOfParents; j++, idx++) {
+            for (int k = 0; k < size; k++) {
+                population[idx][k] = parents[j][k];
             }
         }
-        for(int j=0;j<numOfChildren;j++,idx++){
-            for(int k=0;k<size;k++){
-                population[idx][k]=children[j][k];
+        for (int j = 0; j < numOfChildren; j++, idx++) {
+            for (int k = 0; k < size; k++) {
+                population[idx][k] = children[j][k];
             }
         }
         delete[] fitness;
@@ -123,13 +123,13 @@ int BinaryKnapsack::solveGenetic(int sizeOfPop, int numOfGenerations, double cro
         delete[] children;
 
     }
-    int* fitnessLastGen = fitness(population,sizeOfPop);
+    int *fitnessLastGen = fitness(population, sizeOfPop);
     int maxFitness = 0;
     for (int j = 0; j < sizeOfPop; j++) {
         maxFitness = fitnessLastGen[j] > maxFitness ? fitnessLastGen[j] : maxFitness;
     }
     delete[] fitnessLastGen;
-    for(int i=0;i<sizeOfPop;i++){
+    for (int i = 0; i < sizeOfPop; i++) {
         delete[] population[i];
     }
     delete[] population;
@@ -157,7 +157,7 @@ int *BinaryKnapsack::fitness(int **population, int popSize) {
     return fitness;
 }
 
-int **BinaryKnapsack::selection(int *fitness, int **population, int numOfParents,int sizeOfPop) const {
+int **BinaryKnapsack::selection(int *fitness, int **population, int numOfParents, int sizeOfPop) const {
     int **parents = new int *[numOfParents];
     for (int i = 0; i < numOfParents; i++) {
         parents[i] = new int[size];
@@ -195,11 +195,10 @@ int **BinaryKnapsack::crossover(int **parents, int numOfChildren, double crossov
             int parent1Index = i % numOfParents;
             int parent2Index = (i + 1) % numOfParents;
             for (int j = 0; j < size; j++) {
-                if(j<crossoverPoint){
-                    children[i][j]=parents[parent1Index][j];
-                }
-                else{
-                    children[i][j]=parents[parent2Index][j];
+                if (j < crossoverPoint) {
+                    children[i][j] = parents[parent1Index][j];
+                } else {
+                    children[i][j] = parents[parent2Index][j];
                 }
             }
             i++;

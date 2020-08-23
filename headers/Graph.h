@@ -1,38 +1,46 @@
 //
-// Created by bartosz on 16.08.2020.
+// This class is a graph representation and contains graph methods
 //
 
 #ifndef GENETIC_ALGORITHM_PERFORMANCES_GRAPH_H
 #define GENETIC_ALGORITHM_PERFORMANCES_GRAPH_H
 
 
-
 #include <unordered_set>
 #include <unordered_map>
 #include <map>
 #include "Node.h"
+
 template<typename T>
 class Graph {
 public:
     //variables
-    typedef std::unordered_map<T,Node<T>*> NodesMap;
+    typedef std::unordered_map<T, Node<T> *> NodesMap;
     NodesMap nodes;
     bool directed;
 
     //constructors
     Graph();
+
     explicit Graph(bool directed);
+
     ~Graph();
+
     Graph(const Graph<T> &oldObj);
 
     //methods
-    void addNode(const T&);
-    void addEdge(const T& from, const T& to, int cost);
+    void addNode(const T &);
+
+    void addEdge(const T &from, const T &to, int cost);
+
     int getDistance(T from, T to);
+
     bool isConnected();
+
     int size();
+
     template<typename S>
-    friend std::ostream &operator<<(std::ostream& out, const Graph<S>& g);
+    friend std::ostream &operator<<(std::ostream &out, const Graph<S> &g);
 };
 
 
