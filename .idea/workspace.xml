@@ -12,13 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c9102e-f07e-446d-b701-48f6b18dec9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/headers/BinaryKnapsack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/BinaryKnapsack.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/BinaryKnapsack.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/BinaryKnapsack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/BinaryKnapsack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/BinaryKnapsack.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +63,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Genetic_Algorithm_Performances" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Genetic_Algorithm_Performances" TARGET_NAME="Genetic_Algorithm_Performances" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Genetic_Algorithm_Performances" RUN_TARGET_NAME="Genetic_Algorithm_Performances">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -104,6 +96,8 @@
       <workItem from="1597833179741" duration="8127000" />
       <workItem from="1597841386247" duration="4234000" />
       <workItem from="1597868787258" duration="1246000" />
+      <workItem from="1597921588433" duration="5046000" />
+      <workItem from="1598007419274" duration="24315000" />
     </task>
     <servers />
   </component>
@@ -123,42 +117,46 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1176" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597585340980" />
+    <state width="432" height="506" key="DebuggerActiveHint" timestamp="1598041156026">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="432" height="506" key="DebuggerActiveHint/0.0.1920.1044@0.0.1920.1044" timestamp="1598041156026" />
     <state x="1162" y="278" key="FileChooserDialogImpl" timestamp="1597661882979">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1162" y="278" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1597661882979" />
-    <state width="1874" height="175" key="GridCell.Tab.0.bottom" timestamp="1597879314645">
+    <state width="1874" height="242" key="GridCell.Tab.0.bottom" timestamp="1598045367862">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1597879314645" />
-    <state width="1874" height="175" key="GridCell.Tab.0.center" timestamp="1597879314645">
+    <state width="1874" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367862" />
+    <state width="1874" height="242" key="GridCell.Tab.0.center" timestamp="1598045367862">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="175" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1597879314645" />
-    <state width="1874" height="175" key="GridCell.Tab.0.left" timestamp="1597879314644">
+    <state width="1874" height="242" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367862" />
+    <state width="1874" height="242" key="GridCell.Tab.0.left" timestamp="1598045367862">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="175" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1597879314644" />
-    <state width="1874" height="175" key="GridCell.Tab.0.right" timestamp="1597879314645">
+    <state width="1874" height="242" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367862" />
+    <state width="1874" height="242" key="GridCell.Tab.0.right" timestamp="1598045367862">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="175" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1597879314645" />
-    <state width="910" height="340" key="GridCell.Tab.1.bottom" timestamp="1597669423668">
+    <state width="1874" height="242" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367862" />
+    <state width="1874" height="242" key="GridCell.Tab.1.bottom" timestamp="1598045367863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423668" />
-    <state width="910" height="340" key="GridCell.Tab.1.center" timestamp="1597669423667">
+    <state width="1874" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
+    <state width="1874" height="242" key="GridCell.Tab.1.center" timestamp="1598045367863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="340" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423667" />
-    <state width="910" height="340" key="GridCell.Tab.1.left" timestamp="1597669423667">
+    <state width="1874" height="242" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
+    <state width="1874" height="242" key="GridCell.Tab.1.left" timestamp="1598045367863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="340" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423667" />
-    <state width="910" height="340" key="GridCell.Tab.1.right" timestamp="1597669423668">
+    <state width="1874" height="242" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
+    <state width="1874" height="242" key="GridCell.Tab.1.right" timestamp="1598045367863">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="910" height="340" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1597669423668" />
+    <state width="1874" height="242" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
     <state x="680" y="178" width="1007" height="733" key="SettingsEditor" timestamp="1597669791985">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

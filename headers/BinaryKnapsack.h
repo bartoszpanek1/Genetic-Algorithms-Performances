@@ -14,6 +14,10 @@ private:
 
     //methods
     int recursionHelper(int,int);
+    int* fitness(int** population, int popSize);
+    int** selection(int* fitness, int** population, int numOfParents,int sizeOfPop) const;
+    int** crossover(int** parents,int numOfChildren,double crossoverRate,int numOfParents) const;
+    void mutation(int** children,int numOfChildren, double mutationRate) const;
 public:
     //constructor
     BinaryKnapsack(int* values, int* weights, int capacity, int size);
@@ -28,6 +32,6 @@ public:
     //methods
     int solveRecursion(); // slowest method using Recursion O(2^n)
     int solveDP(); // method using dynamic programming
-    int solveGenetic(); // method using genetic algorithm
+    int solveGenetic(int sizeOfPop, int numOfGenerations, double crossoverRate, double mutationRate); // method using genetic algorithm
 };
 #endif //GENETIC_ALGORITHM_PERFORMANCES_BINARYKNAPSACK_H
