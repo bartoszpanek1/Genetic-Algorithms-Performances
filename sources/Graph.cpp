@@ -112,6 +112,30 @@ int Graph<T>::getDistance(T from, T to) {
     return dist;
 }
 
+template<typename T>
+int Graph<T>::solveTSPNaive(T from) {
+    int minSum = INT_MAX;
+    std::unordered_set<T> visited;
+    visited.insert(from);
+    naiveHelper(from, visited, from, 0, minSum);
+    return minSum;
+}
+
+template<typename T>
+void Graph<T>::naiveHelper(T current, std::unordered_set<T> visited, T start,int costSum, int& minSum) {
+    if(visited.size()==nodes.size()){
+        int finalSum = costSum+getDistance(current, start);
+        minSum = finalSum < minSum ? finalSum : minSum;
+    }
+    for(auto pair : nodes[current]->adj){
+        if(!visited.contains(pair.first->getVal())){
+            visited.insert(pair.first->getVal());
+            naiveHelper(pair.first->getVal(),visited,start,costSum+pair.second,minSum);
+            visited.erase(pair.first->getVal());
+        }
+    }
+}
+
 
 template
 class Graph<std::string>;

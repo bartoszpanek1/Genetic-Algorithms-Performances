@@ -1,5 +1,6 @@
 #include <iostream>
 #include "headers/BinaryKnapsack.h"
+#include "headers/Graph.h"
 #include <bitset>
 #include <chrono>
 
@@ -59,5 +60,18 @@ int main() {
     std::cout << "TIME ELAPSED: "
               << std::chrono::duration_cast<std::chrono::microseconds>(endGenetic - beginGenetic).count() << "[μs]"
               << std::endl;
+//    Graph<std::string> graph;
+//    graph.addNode("A");
+//    graph.addNode("B");
+//    graph.addNode("C");
+//    graph.addNode("D");
+//    graph.addEdge("A","B",20);
+//    graph.addEdge("B","D",30);
+//    graph.addEdge("D","C",35);
+//    graph.addEdge("C","A",10);
+//    graph.addEdge("A","D",15);
+//    graph.addEdge("B","C",25);
+//    int result = graph.solveNaive("A");
+//    std::cout<<result<<std::endl;
     return 0;
 }

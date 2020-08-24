@@ -13,6 +13,8 @@
 
 template<typename T>
 class Graph {
+private:
+    void naiveHelper(T current, std::unordered_set<T> visited, T start,int costSum, int& minSum);
 public:
     //variables
     typedef std::unordered_map<T, Node<T> *> NodesMap;
@@ -38,6 +40,8 @@ public:
     bool isConnected();
 
     int size();
+
+    int solveTSPNaive(T from); // naive solution of the traveling salesman problem
 
     template<typename S>
     friend std::ostream &operator<<(std::ostream &out, const Graph<S> &g);

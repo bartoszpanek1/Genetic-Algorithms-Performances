@@ -13,14 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b8c9102e-f07e-446d-b701-48f6b18dec9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/BinaryKnapsack.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/BinaryKnapsack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headers/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/BinaryKnapsack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/BinaryKnapsack.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/Graph.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/Node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/utils.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +68,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,6 +95,7 @@
       <workItem from="1598007419274" duration="24315000" />
       <workItem from="1598202502972" duration="4268000" />
       <workItem from="1598207933308" duration="531000" />
+      <workItem from="1598286532993" duration="5434000" />
     </task>
     <servers />
   </component>
@@ -132,38 +123,38 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="1162" y="278" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1597661882979" />
-    <state width="1874" height="347" key="GridCell.Tab.0.bottom" timestamp="1598207586199">
+    <state width="1874" height="347" key="GridCell.Tab.0.bottom" timestamp="1598292061255">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1598207586199" />
-    <state width="1874" height="347" key="GridCell.Tab.0.center" timestamp="1598207586198">
+    <state width="1874" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1598292061255" />
+    <state width="1874" height="347" key="GridCell.Tab.0.center" timestamp="1598292061255">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="347" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1598207586198" />
-    <state width="1874" height="347" key="GridCell.Tab.0.left" timestamp="1598207586198">
+    <state width="1874" height="347" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1598292061255" />
+    <state width="1874" height="347" key="GridCell.Tab.0.left" timestamp="1598292061254">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="347" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1598207586198" />
-    <state width="1874" height="347" key="GridCell.Tab.0.right" timestamp="1598207586199">
+    <state width="1874" height="347" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1598292061254" />
+    <state width="1874" height="347" key="GridCell.Tab.0.right" timestamp="1598292061255">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="347" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1598207586199" />
-    <state width="1874" height="242" key="GridCell.Tab.1.bottom" timestamp="1598045367863">
+    <state width="1874" height="347" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1598292061255" />
+    <state width="1874" height="242" key="GridCell.Tab.1.bottom" timestamp="1598291852532">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
-    <state width="1874" height="242" key="GridCell.Tab.1.center" timestamp="1598045367863">
+    <state width="1874" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1598291852532" />
+    <state width="1874" height="242" key="GridCell.Tab.1.center" timestamp="1598291852532">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="242" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
-    <state width="1874" height="242" key="GridCell.Tab.1.left" timestamp="1598045367863">
+    <state width="1874" height="242" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1598291852532" />
+    <state width="1874" height="242" key="GridCell.Tab.1.left" timestamp="1598291852532">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="242" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
-    <state width="1874" height="242" key="GridCell.Tab.1.right" timestamp="1598045367863">
+    <state width="1874" height="242" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1598291852532" />
+    <state width="1874" height="242" key="GridCell.Tab.1.right" timestamp="1598291852532">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state width="1874" height="242" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1598045367863" />
+    <state width="1874" height="242" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1598291852532" />
     <state x="680" y="178" width="1007" height="733" key="SettingsEditor" timestamp="1597669791985">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
