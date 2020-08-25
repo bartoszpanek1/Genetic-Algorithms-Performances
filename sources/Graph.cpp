@@ -24,7 +24,6 @@ void Graph<T>::addNode(const T &val) {
 
 template<typename T>
 Graph<T>::~Graph() {
-    std::cout << "Graph destructor" << std::endl;
     for (std::pair<const T, Node<T> *> &p:nodes) {
         delete p.second;
         p.second = nullptr;
@@ -33,12 +32,10 @@ Graph<T>::~Graph() {
 
 template<typename T>
 Graph<T>::Graph(const Graph<T> &oldObj) {
-    std::cout << "Graph copy constructor" << std::endl;
 }
 
 template<typename T>
 Graph<T>::Graph() {
-    std::cout << "Graph default constructor" << std::endl;
     directed = false;
 }
 
@@ -68,7 +65,6 @@ void Graph<T>::addEdge(const T &from, const T &to, int cost) {
 
 template<typename T>
 Graph<T>::Graph(bool directed) {
-    std::cout << "Graph parametrized constructor" << std::endl;
     this->directed = directed;
 }
 
@@ -134,6 +130,40 @@ void Graph<T>::naiveHelper(T current, std::unordered_set<T> visited, T start,int
             visited.erase(pair.first->getVal());
         }
     }
+}
+
+template<typename T>
+std::vector<std::vector<T>> Graph<T>::generateRandomPaths(T from,int noOfPaths) {
+    std::vector<T> initialPath;
+    initialPath.push_back(from);
+    for(const auto& node : nodes){
+        if(node.first!=from){
+            initialPath.push_back(node.first);
+        }
+    }
+    std::vector<std::vector<T>> paths;
+    auto rd = std::random_device{};
+    auto rng = std::default_random_engine{rd()};
+    std::shuffle(std::next(std::begin(initialPath)),std::end(initialPath),rng);
+    for(int i=0;i<noOfPaths;i++){
+        std::vector<T> path = initialPath;
+        std::shuffle(std::next(std::begin(path)),std::end(path),rng);
+        paths.push_back(path);
+    }
+    return paths;
+}
+
+template<typename T>
+int Graph<T>::calculateCostOfPath(std::vector<T> path) {
+    int cost = 0;
+    for(int i=0;i<path.size()-1;i++){
+        int d = getDistance(path[i],path[i+1]);
+        if(d==INT_MAX){
+            return INT_MAX;
+        }
+        cost+=d;
+    }
+    return cost;
 }
 
 

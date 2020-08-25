@@ -15,6 +15,7 @@ template<typename T>
 class Graph {
 private:
     void naiveHelper(T current, std::unordered_set<T> visited, T start,int costSum, int& minSum);
+
 public:
     //variables
     typedef std::unordered_map<T, Node<T> *> NodesMap;
@@ -41,7 +42,12 @@ public:
 
     int size();
 
-    int solveTSPNaive(T from); // naive solution of the traveling salesman problem
+    int solveTSPNaive(T from); // naive solution to the traveling salesman problem
+
+    std::vector<std::vector<T>> generateRandomPaths(T from,int noOfPaths);
+
+    int calculateCostOfPath(std::vector<T> path);
+
 
     template<typename S>
     friend std::ostream &operator<<(std::ostream &out, const Graph<S> &g);
