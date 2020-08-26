@@ -154,16 +154,51 @@ std::vector<std::vector<T>> Graph<T>::generateRandomPaths(T from,int noOfPaths) 
 }
 
 template<typename T>
-int Graph<T>::calculateCostOfPath(std::vector<T> path) {
-    int cost = 0;
+double Graph<T>::calculateCostOfPath(std::vector<T> path) { //in other words - fitness in GA
+    double cost = 0;
     for(int i=0;i<path.size()-1;i++){
-        int d = getDistance(path[i],path[i+1]);
-        if(d==INT_MAX){
-            return INT_MAX;
+        auto d = (double) getDistance(path[i],path[i+1]);
+        if(d==(double)INT_MAX){
+            return (double) INT_MAX;
         }
         cost+=d;
     }
     return cost;
+}
+
+template<typename T>
+std::vector<double> Graph<T>::fitness(std::vector<std::vector<T>> population) {
+    std::vector<double> fitness;
+    fitness.reserve(population.size());
+    double sum = 0;
+    for(int i=0;i<population.size();i++){
+        sum = 1/(1+calculateCostOfPath(population[i]));
+        fitness.push_back(sum);
+    }
+    for(int i=0;i<population.size();i++){
+        fitness[i]=fitness[i]/sum;
+    }
+
+    return fitness;
+}
+
+template<typename T>
+T Graph<T>::selectOne(std::vector<double> fitness, std::vector<std::vector<T>> population) {
+    int index = 0;
+    std::random_device dev;
+    std::mt19937 rng(dev());
+    std::uniform_real_distribution<double> dist(0,1);
+    double r = dist(rng);
+    while(r>0){
+        r-=fitness[index++];
+    }
+    index--;
+    return population[index];
+}
+
+template<typename T>
+std::vector<std::vector<T>> Graph<T>::selection(std::vector<std::vector<T>> population, std::vector<double> fitness) {
+    return std::vector<std::vector<T>>();
 }
 
 

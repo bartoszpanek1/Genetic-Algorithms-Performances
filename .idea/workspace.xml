@@ -14,7 +14,6 @@
     <list default="true" id="b8c9102e-f07e-446d-b701-48f6b18dec9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headers/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/Graph.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +98,9 @@
       <workItem from="1598351792224" duration="186000" />
       <workItem from="1598357391758" duration="70000" />
       <workItem from="1598364907250" duration="4311000" />
+      <workItem from="1598369930186" duration="714000" />
+      <workItem from="1598386521836" duration="24000" />
+      <workItem from="1598442759015" duration="4646000" />
     </task>
     <servers />
   </component>

@@ -16,6 +16,12 @@ class Graph {
 private:
     void naiveHelper(T current, std::unordered_set<T> visited, T start,int costSum, int& minSum);
 
+    std::vector<double> fitness(std::vector<std::vector<T>> population);
+    std::vector<std::vector<T>> generateRandomPaths(T from,int noOfPaths);
+    std::vector<std::vector<T>> selection(std::vector<std::vector<T>> population, std::vector<double> fitness);
+    T selectOne(std::vector<double> fitness, std::vector<std::vector<T>> population);
+    double calculateCostOfPath(std::vector<T> path);
+
 public:
     //variables
     typedef std::unordered_map<T, Node<T> *> NodesMap;
@@ -44,9 +50,9 @@ public:
 
     int solveTSPNaive(T from); // naive solution to the traveling salesman problem
 
-    std::vector<std::vector<T>> generateRandomPaths(T from,int noOfPaths);
 
-    int calculateCostOfPath(std::vector<T> path);
+
+
 
 
     template<typename S>
